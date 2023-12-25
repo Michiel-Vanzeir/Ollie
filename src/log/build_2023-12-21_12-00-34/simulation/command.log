@@ -1,0 +1,4 @@
+Invoking command in '/home/michiel/dev_ws/src/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michiel/dev_ws/src/build/simulation -- -j8 -l8
+Invoked command in '/home/michiel/dev_ws/src/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michiel/dev_ws/src/build/simulation -- -j8 -l8
+Invoking command in '/home/michiel/dev_ws/src/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michiel/dev_ws/src/build/simulation
+Invoked command in '/home/michiel/dev_ws/src/build/simulation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michiel/dev_ws/src/build/simulation

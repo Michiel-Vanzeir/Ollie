@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<robot name="Ollie" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <xacro:include filename="robot_core.xacro"/>
+    
+</robot>

@@ -1,0 +1,32 @@
+[0.058s] Invoking command in '/home/michiel/dev_ws/src/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/michiel/dev_ws/src/simulation -DCMAKE_INSTALL_PREFIX=/home/michiel/dev_ws/src/install/simulation
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.310s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.639s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.785s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.924s] -- Added test 'lint_cmake' to check CMake code style
+[0.925s] -- Added test 'xmllint' to check XML markup files
+[0.927s] -- Configuring done
+[0.931s] -- Generating done
+[0.932s] -- Build files have been written to: /home/michiel/dev_ws/src/build/simulation
+[0.939s] Invoked command in '/home/michiel/dev_ws/src/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/michiel/dev_ws/src/simulation -DCMAKE_INSTALL_PREFIX=/home/michiel/dev_ws/src/install/simulation
+[0.942s] Invoking command in '/home/michiel/dev_ws/src/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michiel/dev_ws/src/build/simulation -- -j8 -l8
+[0.989s] Invoked command in '/home/michiel/dev_ws/src/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michiel/dev_ws/src/build/simulation -- -j8 -l8
+[1.027s] Invoking command in '/home/michiel/dev_ws/src/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michiel/dev_ws/src/build/simulation
+[1.036s] -- Install configuration: ""
+[1.037s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.037s]   file INSTALL cannot find "/home/michiel/dev_ws/src/simulation/launch": No
+[1.037s]   such file or directory.
+[1.037s] 
+[1.037s] [0m
+[1.039s] Invoked command in '/home/michiel/dev_ws/src/build/simulation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michiel/dev_ws/src/build/simulation
