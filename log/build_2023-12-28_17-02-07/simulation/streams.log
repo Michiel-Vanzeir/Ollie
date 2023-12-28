@@ -1,0 +1,28 @@
+[0.087s] Invoking command in '/home/michiel/dev_ws/build/simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michiel/dev_ws/build/simulation -- -j8 -l8
+[0.141s] Invoked command in '/home/michiel/dev_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/michiel/dev_ws/build/simulation -- -j8 -l8
+[0.162s] Invoking command in '/home/michiel/dev_ws/build/simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michiel/dev_ws/build/simulation
+[0.170s] -- Install configuration: ""
+[0.170s] -- Execute custom install script
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/launch/rsp.launch.py
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/launch/simlaunch.py
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/description/gazebo_control.xacro
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/description/inertial_macros.xacro
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/description/lidar.xacro
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/description/robot.urdf.xacro
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/description/robot_core.xacro
+[0.171s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation
+[0.172s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation
+[0.172s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/environment/ament_prefix_path.sh
+[0.172s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/environment/ament_prefix_path.dsv
+[0.172s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/environment/path.sh
+[0.172s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/environment/path.dsv
+[0.172s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/local_setup.bash
+[0.173s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/local_setup.sh
+[0.173s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/local_setup.zsh
+[0.173s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/local_setup.dsv
+[0.173s] -- Symlinking: /home/michiel/dev_ws/install/simulation/share/simulation/package.dsv
+[0.179s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/ament_index/resource_index/packages/simulation
+[0.180s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/cmake/simulationConfig.cmake
+[0.180s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/cmake/simulationConfig-version.cmake
+[0.180s] -- Up-to-date symlink: /home/michiel/dev_ws/install/simulation/share/simulation/package.xml
+[0.182s] Invoked command in '/home/michiel/dev_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/michiel/dev_ws/build/simulation

@@ -13,7 +13,7 @@
     <xacro:property name="wheel_offset_z" value="-0.015"/>
     <xacro:property name="caster_radius" value="0.01"/>
     <xacro:property name="caster_wheel_mass" value="0.02"/>
-    <xacro:property name="caster_wheel_offset_x" value="0.15"/>
+    <xacro:property name="caster_wheel_offset_x" value="0.11"/>
     
 
     <material name="white">
@@ -65,6 +65,10 @@
         </xacro:inertial_box>
     </link>
 
+    <gazebo reference="chassis_link">
+        <material>Gazebo/White</material>
+    </gazebo>
+
     <!-- WHEELS -->
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link"/>
@@ -90,6 +94,10 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="left_wheel_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel_link"/>
@@ -114,6 +122,10 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="right_wheel_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
     <!-- CASTER WHEEL -->
     <joint name="caster_wheel_joint" type="fixed">
         <parent link="base_link"/>
@@ -137,4 +149,11 @@
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_sphere>
     </link>
+
+    <gazebo reference="caster_wheel_link">
+        <material>Gazebo/Black</material>
+        <mu1>0.0001</mu1>
+        <mu2>0.0002</mu2>
+    </gazebo>
+
 </robot>
