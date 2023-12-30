@@ -38,6 +38,14 @@
         
     <!--  BASE LINK -->
     <link name="base_link"></link>
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_footprint"></link>
     
     <!-- CHASSIS LINK -->
     <joint name="chassis_joint" type="fixed">
@@ -86,7 +94,8 @@
         </visual>
         <collision>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+                <!-- Changed length to prevent wheel slippage -->
+                <cylinder radius="${wheel_radius}" length="0.0001"/>
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="${wheel_mass}" length="${wheel_thickness}" radius="${wheel_radius}">
@@ -114,7 +123,8 @@
         </visual>
         <collision>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
+                <!-- Changed length to prevent wheel slippage -->
+                <cylinder radius="${wheel_radius}" length="0.0001"/>
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="${wheel_mass}" length="${wheel_thickness}" radius="${wheel_radius}">
